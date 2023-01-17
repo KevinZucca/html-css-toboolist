@@ -59,7 +59,8 @@ main {
 .coloured {
     font-size: 0.7em;
     border-radius: 10px;
-    padding: 3px 5px;    
+    padding: 3px 5px; 
+    color: white;   
 }
 
 #blue {
@@ -72,4 +73,24 @@ main {
 
 li {
     margin: 10px;
+}
+
+#purple {
+    background-color: #9c72e4;
+}
+
+#green {
+    background-color: #64c0a9;
+}
+
+#orange {
+    background-color: #f29e33;
+}
+
+#pink {
+    background-color: #d65f9e;
+}
+
+#yellow {
+    background-color: #b0c926;
 }
