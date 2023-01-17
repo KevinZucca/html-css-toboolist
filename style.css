@@ -30,6 +30,10 @@ main {
     background-color: white;
 }
 
+#buttons {
+    padding-left: 50px;
+}
+
 #buttons button {
     display: inline-block;
     padding: 5px;
