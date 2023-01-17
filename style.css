@@ -21,14 +21,15 @@ header img {
 
 main {
     background-color: #f6f8f9;
-    padding: 40px 50px;
+    padding: 40px 100px;
 }
 
 
-#buttons {
+#buttons, #list {
     padding: 20px ;
     background-color: white;
 }
+
 #buttons button {
     display: inline-block;
     padding: 5px;
@@ -44,16 +45,25 @@ main {
     margin-left: 20px; 
 }
 
-#buttons #section {
+#buttons #section{
     color: rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(0, 0, 0, 0.3);
     background-color: white;
 } 
 
+
+
+
+
+#list {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
 .strong {
     font-size: 1.3em;
     font-weight: bold;
-    list-style: lower-greek;
+    list-style: none;
 }
 
 .coloured {
@@ -63,17 +73,32 @@ main {
     color: white;   
 }
 
-#blue {
-    background-color: #47adf1;
-}
 
 .sezione {
     margin: 20px auto 20px 40px;
 }
 
+ul {
+    list-style-type: none;
+}
 li {
     margin: 10px;
 }
+
+li #thick-green {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 1px;
+} 
+
+li #thick-red {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 1px;
+} 
+
 
 #purple {
     background-color: #9c72e4;
@@ -94,3 +119,8 @@ li {
 #yellow {
     background-color: #b0c926;
 }
+
+#blue {
+    background-color: #47adf1;
+}
+
