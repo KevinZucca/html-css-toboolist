@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 
 header > h1 {
     display: inline-block;
-    font-family: sans-serif;
     font-weight: 700;  
     line-height: 80px;
     vertical-align: top;
@@ -19,15 +19,17 @@ header img {
     padding: 15px 5px 10px 20px;
 }
 
-body {
+main {
     background-color: #f6f8f9;
+    padding: 40px 50px;
 }
 
-#to-do {
-     border-bottom: rgba(0, 0, 0, 0.3)   ;
-}
 
-#to-do button {
+#buttons {
+    padding: 20px ;
+    background-color: white;
+}
+#buttons button {
     display: inline-block;
     padding: 5px;
     border-radius: 5px;
@@ -35,16 +37,16 @@ body {
     font-weight: bold;
 }
 
-#to-do #task {
+#buttons #task {
     color: white;
     background-color: #47adf1;
     border: none;
+    margin-left: 20px; 
 }
 
-#to-do #section {
+#buttons #section {
     color: rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(0, 0, 0, 0.3);
     background-color: white;
 } 
-
 
