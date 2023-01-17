@@ -21,7 +21,7 @@ header img {
 
 main {
     background-color: #f6f8f9;
-    padding: 40px 100px;
+    padding: 40px 200px;
 }
 
 
@@ -32,6 +32,7 @@ main {
 
 #buttons {
     padding-left: 50px;
+    padding-bottom: 10px;
 }
 
 #buttons button {
