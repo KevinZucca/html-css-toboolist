@@ -18,3 +18,33 @@ header > h1 {
 header img {
     padding: 15px 5px 10px 20px;
 }
+
+body {
+    background-color: #f6f8f9;
+}
+
+#to-do {
+     border-bottom: rgba(0, 0, 0, 0.3)   ;
+}
+
+#to-do button {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+}
+
+#to-do #task {
+    color: white;
+    background-color: #47adf1;
+    border: none;
+}
+
+#to-do #section {
+    color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: white;
+} 
+
+
