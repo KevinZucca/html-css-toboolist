@@ -90,14 +90,14 @@ li {
     margin: 10px;
 }
 
-li #thick-green {
+li .thick-green {
     color: green;
     border: 1px solid green;
     border-radius: 50%;
     padding: 1px;
 } 
 
-li #thick-red {
+li .thick-red {
     color: red;
     border: 1px solid red;
     border-radius: 50%;
@@ -105,27 +105,27 @@ li #thick-red {
 } 
 
 
-#purple {
+.purple {
     background-color: #9c72e4;
 }
 
-#green {
+.green {
     background-color: #64c0a9;
 }
 
-#orange {
+.orange {
     background-color: #f29e33;
 }
 
-#pink {
+.pink {
     background-color: #d65f9e;
 }
 
-#yellow {
+.yellow {
     background-color: #b0c926;
 }
 
-#blue {
+.blue {
     background-color: #47adf1;
 }
 
