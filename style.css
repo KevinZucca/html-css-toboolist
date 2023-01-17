@@ -50,3 +50,26 @@ main {
     background-color: white;
 } 
 
+.strong {
+    font-size: 1.3em;
+    font-weight: bold;
+    list-style: lower-greek;
+}
+
+.coloured {
+    font-size: 0.7em;
+    border-radius: 10px;
+    padding: 3px 5px;    
+}
+
+#blue {
+    background-color: #47adf1;
+}
+
+.sezione {
+    margin: 20px auto 20px 40px;
+}
+
+li {
+    margin: 10px;
+}
