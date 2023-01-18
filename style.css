@@ -5,19 +5,20 @@
     font-family: sans-serif;
 }
 
-
-header > h1 {
+header h1 {
     display: inline-block;
     font-weight: 700;  
     line-height: 80px;
     vertical-align: top;
-    
 }
-
 
 header img {
     padding: 15px 5px 10px 20px;
 }
+
+
+
+
 
 main {
     background-color: #f6f8f9;
@@ -26,7 +27,7 @@ main {
 
 
 #buttons, #list {
-    padding: 20px ;
+    padding: 20px, 100px ;
     background-color: white;
 }
 
@@ -64,7 +65,6 @@ main {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-
 .strong {
     font-size: 1.3em;
     font-weight: bold;
@@ -78,7 +78,6 @@ main {
     color: white;   
 }
 
-
 .sezione {
     margin: 20px auto 20px 40px;
 }
@@ -86,18 +85,19 @@ main {
 ul {
     list-style-type: none;
 }
+
 li {
     margin: 10px;
 }
 
-li .thick-green {
+li.thick-green {
     color: green;
     border: 1px solid green;
     border-radius: 50%;
     padding: 1px;
 } 
 
-li .thick-red {
+li.thick-red {
     color: red;
     border: 1px solid red;
     border-radius: 50%;
